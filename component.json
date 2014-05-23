@@ -1,0 +1,12 @@
+{
+	"name": "acclimate-variables",
+	"repo": "jkroso/acclimate-variables",
+	"description": "rename all invalid identifiers in an AST",
+	"keywords": ["ast","safe","variables","identifiers"],
+	"dependencies": {
+    "jkroso/free-variables": "*",
+    "jkroso/ast-children": "*"
+  },
+	"scripts": ["index.js"],
+	"license": "MIT"
+}

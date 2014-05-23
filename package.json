@@ -1,0 +1,25 @@
+{
+  "name": "acclimate-variables",
+  "version": "0.1.0",
+  "description": "rename all invalid identifiers in an AST",
+  "keywords": ["ast","safe","variables","identifiers"],
+  "dependencies": {
+    "free-variables": "*",
+    "ast-children": "*"
+  },
+  "devDependencies": {
+    "serve": "jkroso/serve",
+    "rename-variables": "*",
+    "hydro-chai": "*",
+    "hydro-html": "*",
+    "hydro-bdd": "*",
+    "hydro-dot": "*",
+    "hydro": "*",
+    "jsmd": "*",
+    "chai": "*"
+  },
+  "repository": "git://github.com/jkroso/acclimate-variables.git",
+  "author": "Jake Rosoman",
+  "files": ["index.js"],
+  "license": "MIT"
+}
