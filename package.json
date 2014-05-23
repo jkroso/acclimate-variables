@@ -1,6 +1,6 @@
 {
   "name": "acclimate-variables",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "rename all invalid identifiers in an AST",
   "keywords": ["ast","safe","variables","identifiers"],
   "dependencies": {
@@ -20,6 +20,6 @@
   },
   "repository": "git://github.com/jkroso/acclimate-variables.git",
   "author": "Jake Rosoman",
-  "files": ["index.js"],
+  "files": ["index.js", "reserved.js"],
   "license": "MIT"
 }

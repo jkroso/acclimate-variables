@@ -7,6 +7,6 @@
     "jkroso/free-variables": "*",
     "jkroso/ast-children": "*"
   },
-	"scripts": ["index.js"],
+	"scripts": ["index.js", "reserved.js"],
 	"license": "MIT"
 }
