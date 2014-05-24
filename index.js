@@ -9,7 +9,7 @@ var reserved = require('./reserved')
  */
 
 reserved = reserved.reduce(function(map, name){
-  map[name] = '_' + name
+  map[name] = name + '_'
   return map
 }, Object.create(null))
 
