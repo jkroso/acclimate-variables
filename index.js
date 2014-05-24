@@ -25,9 +25,7 @@ reserved = reserved.reduce(function(map, name){
 function walk(node, env){
   switch (node.type) {
     case 'Identifier':
-      if (node.name in env) node.name = env[node.name]
-      else node.name = jsIfy(node.name, env)
-      return
+      return node.name = env[node.name] || jsIfy(node.name, env)
     case 'MemberExpression':
       walk(node.object, env)
       if (node.computed) walk(node.property, env)
