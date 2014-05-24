@@ -1,6 +1,5 @@
 
 module.exports = [
-  'arguments',
   'break',
   'case',
   'catch',
@@ -24,7 +23,6 @@ module.exports = [
   'in',
   'instanceof',
   'let',
-  'native',
   'new',
   'null',
   'return',
