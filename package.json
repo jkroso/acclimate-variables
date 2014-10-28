@@ -1,6 +1,6 @@
 {
   "name": "acclimate-variables",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "rename all invalid identifiers in an AST",
   "keywords": ["ast","safe","variables","identifiers"],
   "dependencies": {
@@ -14,6 +14,8 @@
     "hydro-html": "*",
     "hydro-bdd": "*",
     "hydro-dot": "*",
+    "escodegen": "*",
+    "esprima": "*",
     "hydro": "*",
     "jsmd": "*",
     "chai": "*"

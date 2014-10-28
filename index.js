@@ -26,10 +26,6 @@ function walk(node, env){
   switch (node.type) {
     case 'Identifier':
       return node.name = env[node.name] || jsIfy(node.name, env)
-    case 'MemberExpression':
-      walk(node.object, env)
-      if (node.computed) walk(node.property, env)
-      return
     case 'FunctionDeclaration':
     case 'FunctionExpression':
     case 'CatchClause':
